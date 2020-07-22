@@ -1,0 +1,149 @@
+.header {
+  text-align: center;
+}
+div.jumbotron {
+  padding: 40px;
+  text-align: center;
+}
+#btn {
+  background-color: #546e7a;
+  border-color: black;
+}
+#main {
+  text-align: center;
+  margin: 20px;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+hr {
+  line-height: 6px;
+}
+.custom-btn-toolbar {
+  display: inline !important;
+  float: right;
+}
+.custom-btn-toolbar > .btn {
+  margin-right: 1rem;
+}
+.headline{
+  float: left;
+}
+.Images {
+  margin: 10px;
+  height: 250px;
+  width: 268px;
+}
+.Images1 {
+  margin: 10px;
+  height: 250px;
+  width: 268px;
+}
+.pic_background {
+  background-color: #546e7a;
+}
+#lists {
+  list-style: '-';
+  text-align: left;
+  padding-left: 8px;
+}
+#title {
+  text-align: left;
+  padding-left: 10px;
+}
+#icon {
+  padding: 8px;
+  color: black;
+}
+#icon:hover {
+  color: #546e7a;
+}
+#footer {
+  text-align: left;
+  position: sticky;
+  color: black;
+}
+a:link {
+  color: black;
+}
+#checkProj {
+  text-align: center;
+  margin-top: 10px;
+}
+#projectsTitle {
+  text-align: left;
+  padding-left: 20px;
+}
+#subTitle {
+  padding-left: 20px;
+  text-align: left;
+}
+#projPic {
+  margin: 10px;
+  height: 210px;
+  margin-left: 10px;
+  width: 300px;
+  border: solid black .5px;
+  transition: transform .2s;
+}
+#projPic:hover {
+  transform: scale(1.1)
+}
+#links {
+  color: black;
+}
+html {
+  padding:0px;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 987px) {
+  .Images {
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 200px;
+    width: 210px;
+  }
+  .Images1 {
+    margin: 10px;
+    margin-left:0px;
+    padding-right: 15px;
+    height: 200px;
+    width: 210px;
+  }
+  #projPic {
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 160px;
+    width: 190px;
+    border: solid black .5px;
+    transition: transform .2s;
+  }
+  #projectsTitle {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Images {
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 280px;
+    width: 300px;
+  }
+  .Images1 {
+    margin: 10px;
+    padding-left:15px;
+    padding-right: 15px;
+    height: 280px;
+    width: 300px;
+  }
+}
+
