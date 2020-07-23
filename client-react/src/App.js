@@ -24,7 +24,7 @@ const App = () => (
     <Container className='p-3'>
       <Jumbotron>
         <h2>
-          <h2 className='headline'>Austen Cote</h2>
+          <h2 className='headline'>Cote</h2>
           <ButtonToolbar className='custom-btn-toolbar'>
             <LinkContainer to='/'>
               <Button id='btn'>Home</Button>
