@@ -40,13 +40,13 @@ const App = () => (
       </Jumbotron>
       <Container className='pic_background'>
         <Row class='justifiy-content-md-center'>
-          <Col xs={0} md={4} varient='#546e7a'>
+          <Col>
             <Image src={smith} className='Images1' rounded />
           </Col>
-          <Col xs={0} md={4}>
+          <Col>
             <Image src={portfolio} className='Images' rounded />
           </Col>
-          <Col xs={0} md={4}>
+          <Col>
             <Image src={teton} className='Images' rounded />
           </Col>
         </Row>
