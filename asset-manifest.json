@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.36ff785b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.07c35d1f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.07c35d1f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.1c433528.chunk.css",
+    "main.js": "/Portfolio/static/js/main.4a111df4.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.4a111df4.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b3fdf137.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b3fdf137.js.map",
     "static/css/2.f3fc1a0a.chunk.css": "/Portfolio/static/css/2.f3fc1a0a.chunk.css",
     "static/js/2.ee83c6ef.chunk.js": "/Portfolio/static/js/2.ee83c6ef.chunk.js",
     "static/js/2.ee83c6ef.chunk.js.map": "/Portfolio/static/js/2.ee83c6ef.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4b2d1f7aa97d83a9918514925da39bfc.js": "/Portfolio/precache-manifest.4b2d1f7aa97d83a9918514925da39bfc.js",
+    "precache-manifest.d4c8e44da0aa0f3b19d47a5c936f47f0.js": "/Portfolio/precache-manifest.d4c8e44da0aa0f3b19d47a5c936f47f0.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.f3fc1a0a.chunk.css.map": "/Portfolio/static/css/2.f3fc1a0a.chunk.css.map",
-    "static/css/main.36ff785b.chunk.css.map": "/Portfolio/static/css/main.36ff785b.chunk.css.map",
+    "static/css/main.1c433528.chunk.css.map": "/Portfolio/static/css/main.1c433528.chunk.css.map",
     "static/js/2.ee83c6ef.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ee83c6ef.chunk.js.LICENSE.txt",
     "static/media/Chat.PNG": "/Portfolio/static/media/Chat.6d8b8d32.PNG",
     "static/media/FFTG.PNG": "/Portfolio/static/media/FFTG.d27a9987.PNG",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.b3fdf137.js",
     "static/css/2.f3fc1a0a.chunk.css",
     "static/js/2.ee83c6ef.chunk.js",
-    "static/css/main.36ff785b.chunk.css",
-    "static/js/main.07c35d1f.chunk.js"
+    "static/css/main.1c433528.chunk.css",
+    "static/js/main.4a111df4.chunk.js"
   ]
 }
