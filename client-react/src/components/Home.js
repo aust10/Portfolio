@@ -31,14 +31,16 @@ export default function Home () {
     'MongoDB',
     'JWT Authorization',
     'Windows/Mac',
-    'Data Visualization'
+    'Data Visualization',
+    'UpCloud',
+    'DigitalOcean'
   ]
   return (
     <div>
-      <p id='main'>Hello! I'm Austen, a software developer based in Portland, OR. I love building things that provide people with enjoyable internet experiences.
+      <p id='main'>Hello! I'm Austen, a Full Stack Software Developer based in Portland, OR. I love learning new technologies and building things that provide people with enjoyable internet experiences.
         <br />
         <br />
-      I am a Veteran that is striving to make a seamless transition from Marine to Software Developer.
+      Outside the office I love the outdoors and am an avid rock climber and travel enthusiast.
       </p>
       <h2><i>Technical Skills</i></h2>
       <hr />
