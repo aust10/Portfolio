@@ -19,17 +19,17 @@ export default function Projects () {
       </div>
       <Container>
         <Row id='main'>
-          <Col>
+          <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>Foodforthegoddess</strong></h3>
             <p id='subTitle'><em>Individual Project</em></p>
             <a href='http://159.65.74.24/'><Image id='projPic' src={fftg} className='Images' rounded /></a>
           </Col>
-          <Col>
+          <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>Chatapp</strong></h3>
             <p id='subTitle'><em>GroupProject</em></p>
             <a href='http://209.151.157.48/'><Image id='projPic' src={chat} className='Images' rounded /></a>
           </Col>
-          <Col>
+          <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>HOMR</strong></h3>
             <p id='subTitle'><em>Group Project</em></p>
             <a href='https://homr.herokuapp.com/'><Image id='projPic' src={homr} className='Images' rounded /></a>
