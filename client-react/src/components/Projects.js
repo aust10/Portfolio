@@ -36,7 +36,7 @@ export default function Projects () {
             <a href='https://homr.herokuapp.com/'><Image id='projPic' src={homr} className='Images' rounded /></a>
           </Col>
         </Row>
-        <Row id='second'>
+        <Row id='main'>
           <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>TicketDesk</strong></h3>
             <p id='subTitle'><em>Individual Project</em></p>
