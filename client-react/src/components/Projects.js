@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image'
 import chat from '../images/Chat.PNG'
 import fftg from '../images/FFTG.PNG'
 import homr from '../images/HOMR.png'
-import TicketDesk from '../images/TicketDesk'
+import ticketDesk from '../images/TicketDesk.png'
 
 export default function Projects () {
   return (
@@ -33,14 +33,14 @@ export default function Projects () {
           <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>HOMR</strong></h3>
             <p id='subTitle'><em>Group Project</em></p>
-            <a href='https://homr.herokuapp.com/'><Image id='projPic' src={TicketDesk} className='Images' rounded /></a>
+            <a href='https://homr.herokuapp.com/'><Image id='projPic' src={homr} className='Images' rounded /></a>
           </Col>
         </Row>
         <Row id='second'>
           <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>TicketDesk</strong></h3>
             <p id='subTitle'><em>Individual Project</em></p>
-            <a href='http://209.151.144.62/'><Image id='projPic' src={homr} className='Images' rounded /></a>
+            <a href='http://209.151.144.62/'><Image id='projPic' src={ticketDesk} className='Images' rounded /></a>
           </Col>
         </Row>
       </Container>
