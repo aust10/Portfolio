@@ -21,6 +21,14 @@ div.jumbotron {
   margin: 20px;
   font-size: large;
   font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+}
+#main2{
+  text-align: center;
+  margin: 20px;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
 }
 hr {
   line-height: 6px;
@@ -100,6 +108,9 @@ a:link {
 }
 html {
   padding:0px;
+}
+#bottomText p{
+  margin-bottom: 0px
 }
 
 @media (min-width: 768px) {

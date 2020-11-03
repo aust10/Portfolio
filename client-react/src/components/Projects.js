@@ -26,21 +26,29 @@ export default function Projects () {
             <a href='http://159.65.74.24/'><Image id='projPic' src={fftg} className='Images' rounded /></a>
           </Col>
           <Col xs='auto' sm='auto' md='4'>
-            <h3 id='projectsTitle'><strong>Chatapp</strong></h3>
-            <p id='subTitle'><em>GroupProject</em></p>
-            <a href='http://209.151.157.48/'><Image id='projPic' src={chat} className='Images' rounded /></a>
-          </Col>
-          <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>HOMR</strong></h3>
             <p id='subTitle'><em>Group Project</em></p>
             <a href='https://homr.herokuapp.com/'><Image id='projPic' src={homr} className='Images' rounded /></a>
+            <div id="bottomText">
+              <p class="sub"><i>Sign in with</i><b>↴</b></p>
+              <p><b>username:</b> guest<br/><b>password:</b> guest123</p>
+            </div>
           </Col>
         </Row>
-        <Row id='main'>
+        <Row id='main2'>
           <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>TicketDesk</strong></h3>
             <p id='subTitle'><em>Individual Project</em></p>
             <a href='http://209.151.144.62/'><Image id='projPic' src={ticketDesk} className='Images' rounded /></a>
+            <div id="bottomText">
+              <p class="sub"><i>Sign in with</i><b>↴</b></p>
+              <p><b>username:</b> guest<br/><b>password:</b> guest123</p>
+            </div>
+          </Col>
+          <Col xs='auto' sm='auto' md='4'>
+            <h3 id='projectsTitle'><strong>Chatapp</strong></h3>
+            <p id='subTitle'><em>GroupProject</em></p>
+            <a href='https://github.com/aust10/chatapp/blob/master/index.js'><Image id='projPic' src={chat} className='Images' rounded /></a>
           </Col>
         </Row>
       </Container>
