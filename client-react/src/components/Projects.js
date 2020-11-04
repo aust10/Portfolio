@@ -24,6 +24,10 @@ export default function Projects () {
             <h3 id='projectsTitle'><strong>Foodforthegoddess</strong></h3>
             <p id='subTitle'><em>Individual Project</em></p>
             <a href='http://159.65.74.24/'><Image id='projPic' src={fftg} className='Images' rounded /></a>
+            <div id="bottomText">
+              <p class="sub"><i>Sign in with</i><b>↴</b></p>
+              <p><b>username:</b> sam<br/><b>password:</b> 123test!</p>
+            </div>
           </Col>
           <Col xs='auto' sm='auto' md='4'>
             <h3 id='projectsTitle'><strong>HOMR</strong></h3>
@@ -31,7 +35,7 @@ export default function Projects () {
             <a href='https://homr.herokuapp.com/'><Image id='projPic' src={homr} className='Images' rounded /></a>
             <div id="bottomText">
               <p class="sub"><i>Sign in with</i><b>↴</b></p>
-              <p><b>username:</b> guest<br/><b>password:</b> guest123</p>
+              <p><b>username:</b> guest@guest.com<br/><b>password:</b> guest123</p>
             </div>
           </Col>
         </Row>
@@ -42,7 +46,7 @@ export default function Projects () {
             <a href='http://209.151.144.62/'><Image id='projPic' src={ticketDesk} className='Images' rounded /></a>
             <div id="bottomText">
               <p class="sub"><i>Sign in with</i><b>↴</b></p>
-              <p><b>username:</b> guest<br/><b>password:</b> guest123</p>
+              <p><b>username:</b> guest@guest.com<br/><b>password:</b> guest123</p>
             </div>
           </Col>
           <Col xs='auto' sm='auto' md='4'>
