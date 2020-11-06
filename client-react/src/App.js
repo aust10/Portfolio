@@ -21,7 +21,7 @@ import Projects from './components/Projects'
 
 const App = () => (
   <MemoryRouter>
-    <Container className='p-3'>
+    <header class='sticky-top'>
       <Jumbotron>
         <h2>
           <h2 className='headline'>Austen Cote</h2>
@@ -38,16 +38,18 @@ const App = () => (
           </ButtonToolbar>
         </h2>
       </Jumbotron>
+    </header>
+    <Container className='p-3'>
       <Container className='pic_background'>
         <Row class='justifiy-content-md-center'>
           <Col xs='auto' sm='auto' md='4'>
-            <Image src={smith} className='Images1' rounded />
+            <Image src={smith} className='Images1' class='float-left' rounded />
           </Col>
           <Col xs='auto' sm='auto' md='4'>
             <Image src={portfolio} className='Images' rounded />
           </Col>
           <Col xs='auto' sm='auto' md='4'>
-            <Image src={teton} className='Images' rounded />
+            <Image src={teton} className='Images' class='float-right' rounded />
           </Col>
         </Row>
       </Container>

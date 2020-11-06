@@ -9,8 +9,10 @@
   text-align: center;
 }
 div.jumbotron {
-  padding: 40px;
+  padding: 20px 40px 40px 40px;
   text-align: center;
+  /* position: sticky;
+  top: 0 */
 }
 #btn {
   background-color: #546e7a;
@@ -97,7 +99,7 @@ a:link {
   height: 210px;
   margin-left: 10px;
   width: 300px;
-  border: solid black .5px;
+  border: solid black .15px;
   transition: transform .2s;
 }
 #projPic:hover {
@@ -127,24 +129,20 @@ html {
     -top: 15px;
     background-color: #546e7a;
   } */
+
   .Images {
     margin: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
     height: 200px;
-    width: 210px;
+    width: 190px;
   }
   .Images1 {
     margin: 10px;
     margin-left:0px;
-    padding-right: 15px;
     height: 200px;
     width: 210px;
   }
   #projPic {
     margin: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
     height: 160px;
     width: 190px;
     border: solid black .5px;
@@ -155,7 +153,7 @@ html {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-md-4 {
     max-width: 100%;
   }
@@ -172,6 +170,14 @@ html {
     padding-right: 15px;
     height: 240px;
     width: 280px;
+  }
+  .pic_background {
+    visibility: hidden;
+    margin-top: 0;
+  }
+  .jumbotron {
+    /* padding: 0px */
+    /* text-align: center; */
   }
 }
 
