@@ -46,10 +46,10 @@ const App = () => (
             <Image src={smith} className='Images1' class='float-left' rounded />
           </Col>
           <Col xs='auto' sm='auto' md='4'>
-            <Image src={portfolio} className='Images' rounded />
+            <Image src={portfolio} className='Images2' rounded />
           </Col>
           <Col xs='auto' sm='auto' md='4'>
-            <Image src={teton} className='Images' class='float-right' rounded />
+            <Image src={teton} className='Images3' class='float-right' rounded />
           </Col>
         </Row>
       </Container>
